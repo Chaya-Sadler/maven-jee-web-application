@@ -23,7 +23,7 @@ public class LoginServlet extends HttpServlet {
 		String email = request.getParameter("email");
 		String password = request.getParameter("password");
 
-		if (email.equalsIgnoreCase("chaya.r80@gmail.com") && password.equals("chaya009!")) {
+		if (email.equalsIgnoreCase("chaya.r80@gmail.com") && password.equals("123456")) {
 			request.setAttribute("UserDetails", email);
 			request.getRequestDispatcher("/WEB-INF/views/welcome.jsp").forward(request, response);
 			
