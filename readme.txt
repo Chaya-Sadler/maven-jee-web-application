@@ -1,0 +1,1 @@
+This is an JSP Servlet Web Application. The project is maven based. 
